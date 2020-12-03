@@ -11,34 +11,12 @@
 
     <h1 class="text-center mt-5">Ejercicio AJAX -Joke</h1>
 
-    <div class="container">
-        <!--
-        <button type="button" class="btn btn-primary" id="leer">Leer</button>
-        <button type="button" class="btn btn-danger" id="leerEmpleado">Leer Empleado</button>
-        <button type="button" class="btn btn-warning" id="leerArrayEmpleados">Leer Empleados</button>
-        <button type="button" class="btn btn-success" id="leerGetJSOn">Leer Empleados getJSON</button>
-        <div class="form-group mt-3">
-          <label for="">Buscar por nombre</label>
-          <input type="text" class="form-control" id="nombre">
+    <div class="container mt-5">
+        <button type="button" class="btn btn-primary" id="ajax">Buscar Chiste</button>
+        <div class="alert alert-primary mt-4 d-none" id="showChiste" role="alert">
+            <div id="chiste">
+            </div>
         </div>
-    </div>
-    -->
-
-    <button type="button" class="btn btn-primary" id="ajax">Ajax - Json</button>
-    <button type="button" class="btn btn-primary" id="ajaxApi">Ajax - Api</button>
-    <div class="alert alert-primary d-none" id="showEmpleados" role="alert">
-        <strong id="datosEmpleados">Datos empleados</strong>
-        <ol id="listaEmpleados">
-        </ol>
-        <strong id="datosTemporales">Datos temporales</strong>
-        <ol id="listaTemporales">
-        </ol>
-    </div>
-
-    <div class="alert alert-primary d-none" id="showColores" role="alert">
-        <strong id="datosColores">Listado Colores</strong>
-        <ul id="listaColores">
-        </ul>
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
